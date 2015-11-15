@@ -1,5 +1,5 @@
 #Below are two functions that are used to create a special object that stores a Matrix and caches its inverse.
-# This function creates a special "matrix" object that can cache its inverse.
+#This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
